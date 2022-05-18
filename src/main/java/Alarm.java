@@ -1,4 +1,4 @@
-public class Main {
+public class Alarm {
     public static void main(String[] args) {
         System.out.println("Methode1: "+ personenAnzahl(4));
     }

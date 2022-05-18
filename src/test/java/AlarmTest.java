@@ -1,7 +1,7 @@
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-class MainTest {
+class AlarmTest {
 
     @Test
     void zuVielePersonen() {
@@ -10,7 +10,7 @@ class MainTest {
         String test_personenAnzahl = "Zu viele Personen";
 
         // When
-        String actual = Main.personenAnzahl(test_a);
+        String actual = Alarm.personenAnzahl(test_a);
 
         // Then
         assertEquals(test_personenAnzahl, actual);
@@ -23,7 +23,7 @@ class MainTest {
         String test_personenAnzahl = "Maximale Personenzahl nicht überschritten";
 
         // When
-        String actual = Main.personenAnzahl(test_a);
+        String actual = Alarm.personenAnzahl(test_a);
 
         // Then
         assertEquals(test_personenAnzahl, actual);
@@ -36,7 +36,7 @@ class MainTest {
         String test_personenAnzahl = "";
 
         // When
-        String actual = Main.personenAnzahl(test_a);
+        String actual = Alarm.personenAnzahl(test_a);
 
         // Then
         assertEquals(test_personenAnzahl, actual);
