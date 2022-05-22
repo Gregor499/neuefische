@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 class FakultaetTest {
 
     @Test
-    void test0() {
+    void fakultaet0() {
         // Given
         int test_a = 0;
         String test_ergebnis = "0! = 1";
@@ -17,7 +17,7 @@ class FakultaetTest {
     }
 
     @Test
-    void test1() {
+    void fakultaet1() {
         // Given
         int test_a = 1;
         String test_ergebnis = "1! = 1";
@@ -30,7 +30,7 @@ class FakultaetTest {
     }
 
     @Test
-    void test2() {
+    void fakultaet2() {
         // Given
         int test_a = 2;
         String test_ergebnis = "2! = 2";
@@ -43,7 +43,7 @@ class FakultaetTest {
     }
 
     @Test
-    void test3() {
+    void fakultaet3() {
         // Given
         int test_a = 3;
         String test_ergebnis = "3! = 6";
@@ -56,7 +56,7 @@ class FakultaetTest {
     }
 
     @Test
-    void test4() {
+    void fakultaetNegativeZahl() {
         // Given
         int test_a = -1;
         String test_ergebnis = "Error";
