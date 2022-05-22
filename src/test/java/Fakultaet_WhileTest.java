@@ -8,37 +8,31 @@ import static org.junit.jupiter.api.Assertions.*;
 public class Fakultaet_WhileTest {
 
     @Test
-    void test0() {
+    void fakultaet0() {
         // Given
         assertEquals("0! = 1", Fakultaet_While.fakultaet(0));
     }
 
     @Test
-    void test1() {
+    void fakultaet1() {
         // Given
         assertEquals("1! = 1", Fakultaet_While.fakultaet(1));
     }
 
     @Test
-    void test2() {
+    void fakultaet2() {
         assertEquals("2! = 2", Fakultaet_While.fakultaet(2));
 
     }
 
     @Test
-    void test3() {
+    void fakultaet3() {
         assertEquals("3! = 6", Fakultaet_While.fakultaet(3));
 
     }
 
     @Test
-    void test4() {
-        assertEquals("Error", Fakultaet_While.fakultaet(-1));
-
-    }
-
-    @Test
-    void test5() {
+    void fakultaetNegativeZahl() {
         assertEquals("Error", Fakultaet_While.fakultaet(-5));
     }
-}
+    }
